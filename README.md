@@ -1,12 +1,12 @@
 
 # word_identifiers
 
-This is a bijection between numbers and lists of words, in English. This is useful to quickly make urls or tokens.
+This is a bijection between non-negative integers and lists of words, in English. This is useful to quickly make urls or tokens.
 
 ## Usage
 
 ```python
->>> from word_identifiers import word_to_id, id_to_word
+>>> from word_identifiers import words_to_id, id_to_words
 >>> word_to_id(["hi", "bye", "world"])
 148
 ```
