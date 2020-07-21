@@ -7,8 +7,10 @@ This is a bijection between non-negative integers and lists of words, in English
 
 ```python
 >>> from word_identifiers import words_to_id, id_to_words
->>> word_to_id(["hi", "bye", "world"])
-148
+>>> id_to_words(76985270495720357)
+['head', 'dance', 'bully', 'race', 'gate', 'color']
+>>> words_to_id(['head', 'dance', 'bully', 'race', 'gate', 'color'])
+76985270495720357
 ```
 
 ## Wordlist
