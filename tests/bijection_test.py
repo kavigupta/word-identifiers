@@ -1,9 +1,9 @@
-
 import unittest
 import random
 
 from word_identifiers import words_to_id, id_to_words
 from word_identifiers import wordlist
+
 
 class TestInverses(unittest.TestCase):
     def number_to_word_to_number_test(self):
