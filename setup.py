@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="word-identifiers",
-    version="0.1.0",
+    version="1.0.0",
     author="Kavi Gupta",
     author_email="word_identifiers@kavigupta.org",
     description="Provides a bijection between numbers and lists of english words.",
